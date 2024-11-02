@@ -1,0 +1,17 @@
+* {
+	font-size: 20px;
+	overflow: hidden;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+.round {
+	width: 50px; /* Ширина круга */  
+	height: 50px; /* Высота круга */  
+	background-color: red; /* Цвет круга */  
+	border-radius: 50%; /* Скругляем углы для получения круга */  
+	position: absolute;  
+	transition: transform 0.5s;
+}
